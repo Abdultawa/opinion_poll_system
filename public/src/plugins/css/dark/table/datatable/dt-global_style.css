@@ -300,7 +300,7 @@ body.dark .page-item:last-child .page-link svg {
   width: 17px;
 }
 body.dark .page-item.active .page-link {
-  background-color: #00ab55;
+  background-color: #4361ee;
   color: #fff;
 }
 body.dark #alter_pagination_next a, body.dark #alter_pagination_previous a {

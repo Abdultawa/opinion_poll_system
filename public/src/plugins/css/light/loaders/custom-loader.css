@@ -11,7 +11,7 @@
 .element-loader.loader {
   border: 7px solid #f1f2f3;
   border-radius: 50%;
-  border-top: 7px solid #00ab55;
+  border-top: 7px solid #4361ee;
   width: 58px;
   height: 58px;
   -webkit-animation: spin 2s linear infinite;
@@ -19,7 +19,7 @@
   animation: spin 2s linear infinite;
 }
 .element-loader.loader.dual-loader {
-  border-bottom: 7px solid #00ab55;
+  border-bottom: 7px solid #4361ee;
 }
 .element-loader.loader.multi-loader {
   border-bottom: 7px solid #e2a03f;

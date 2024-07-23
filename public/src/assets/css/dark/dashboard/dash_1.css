@@ -343,7 +343,7 @@ body.dark .widget.widget-activity-five .timeline-line .item-timeline .t-dot div 
   box-shadow: none;
 }
 body.dark .widget.widget-activity-five .timeline-line .item-timeline .t-dot div.t-primary {
-  background-color: #00ab55;
+  background-color: #4361ee;
 }
 body.dark .widget.widget-activity-five .timeline-line .item-timeline .t-dot div.t-primary svg {
   color: #e0e6ed;
@@ -490,7 +490,7 @@ body.dark .widget-one_hybrid .apexcharts-canvas svg {
 }
 body.dark .widget-one_hybrid.widget-followers .widget-heading .w-icon {
   color: #ebedf2;
-  background: #00ab55;
+  background: #4361ee;
 }
 body.dark .widget-one_hybrid.widget-referral .widget-heading .w-icon {
   color: #ebedf2;
@@ -498,7 +498,7 @@ body.dark .widget-one_hybrid.widget-referral .widget-heading .w-icon {
 }
 body.dark .widget-one_hybrid.widget-social {
   background: #0b2f52;
-  background: #00ab55;
+  background: #4361ee;
 }
 body.dark .widget-one_hybrid.widget-social .widget-heading .w-icon {
   color: #2196f3;
@@ -839,7 +839,7 @@ body.dark .widget-four .widget-content .w-icon svg {
   height: 15px;
 }
 body.dark .widget-four .widget-content .browser-list:nth-child(1) .w-icon {
-  background: #00ab55;
+  background: #4361ee;
 }
 body.dark .widget-four .widget-content .browser-list:nth-child(2) .w-icon {
   background: #e7515a;
@@ -977,7 +977,7 @@ body.dark .widget-card-two .card-bottom-section .img-group img:not(:last-child) 
 body.dark .widget-card-two .card-bottom-section a {
   display: block;
   margin-top: 18px;
-  background: #00ab55;
+  background: #4361ee;
   color: #fff;
   padding: 10px 10px;
   transform: none;

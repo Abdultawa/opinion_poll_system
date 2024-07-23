@@ -62,15 +62,15 @@
   text-transform: capitalize;
 }
 .fc .fc-addEventButton-button {
-  background-color: #00ab55;
-  border-color: #00ab55;
+  background-color: #4361ee;
+  border-color: #4361ee;
   color: #fff;
   font-weight: 700;
   box-shadow: 0 10px 20px -10px rgba(27, 85, 226, 0.59);
 }
 .fc .fc-addEventButton-button:hover, .fc .fc-addEventButton-button:not(:disabled):active {
-  background-color: #00ab55;
-  border-color: #00ab55;
+  background-color: #4361ee;
+  border-color: #4361ee;
   box-shadow: none;
   color: #fff;
 }
@@ -120,11 +120,11 @@
 }
 
 .fc-bg-primary {
-  color: #00ab55;
+  color: #4361ee;
   background-color: rgba(67, 97, 238, 0.15);
 }
 .fc-bg-primary.fc-h-event .fc-event-main {
-  color: #00ab55;
+  color: #4361ee;
 }
 
 .fc-bg-success {
@@ -152,7 +152,7 @@
 }
 
 .fc-bg-primary .fc-daygrid-event-dot {
-  border-color: #00ab55;
+  border-color: #4361ee;
 }
 
 .fc-bg-success .fc-daygrid-event-dot {

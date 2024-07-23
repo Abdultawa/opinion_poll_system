@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 class DashboardController extends Controller
 {
     public function show(){
-        $questions = Question:: simplePaginate(10);
+        $questions = Question:: paginate(10);
         return view('dashboard', compact('questions'));
     }
     public function question(Question $question)

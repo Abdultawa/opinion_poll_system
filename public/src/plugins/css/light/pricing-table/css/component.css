@@ -148,8 +148,8 @@
 }
 .pricing--norbu .pricing__action:hover, .pricing--norbu .pricing__action:focus {
   color: #eceffe;
-  background: #00ab55;
-  border-color: #00ab55;
+  background: #4361ee;
+  border-color: #4361ee;
   box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
   will-change: opacity, transform;
   transition: all 0.3s ease-out;
@@ -261,7 +261,7 @@
   padding: 7px 13px;
   background: #fff;
   border-radius: 10px;
-  border: 1px solid #00ab55;
+  border: 1px solid #4361ee;
   text-align: center;
   max-width: 110px;
 }

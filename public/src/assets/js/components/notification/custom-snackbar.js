@@ -58,7 +58,7 @@ add_notification('.duration', { text: 'Duration set to 5s', duration: 5000,})
 add_notification('.snackbar-bg-primary', { 
     text: 'Primary',
     actionTextColor: '#fff',
-    backgroundColor: '#00ab55'
+    backgroundColor: '#4361ee'
 })
 
 add_notification('.snackbar-bg-info', { 

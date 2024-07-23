@@ -114,7 +114,7 @@ body.dark .tab-title .nav-pills a.nav-link .mail-badge {
   padding: 4px 7px;
   height: 24px;
   width: 23px;
-  color: #00ab55;
+  color: #4361ee;
   font-weight: 600;
 }
 body.dark .tab-title .nav-pills.group-list .nav-item a {
@@ -162,7 +162,7 @@ body.dark .tab-title li.mail-labels a.dropdown-item {
 }
 body.dark .tab-title li.mail-labels a.dropdown-item:hover {
   background-color: #fff;
-  color: #00ab55;
+  color: #4361ee;
 }
 body.dark .tab-title li.mail-labels .label:after {
   position: absolute;
@@ -189,7 +189,7 @@ body.dark .note-container .switch {
   margin-bottom: 43px;
 }
 body.dark .note-container .switch .active-view {
-  color: #00ab55;
+  color: #4361ee;
   fill: rgba(27, 85, 226, 0.2392156863);
 }
 body.dark .note-container .switch .view-list, body.dark .note-container .switch .view-grid {

@@ -51,7 +51,7 @@ body.dark .invoice-inbox .invoice-action svg:not(:last-child) {
   margin-right: 15px;
 }
 body.dark .invoice-inbox .invoice-action svg:hover {
-  color: #00ab55;
+  color: #4361ee;
   fill: rgba(27, 85, 226, 0.2392156863);
 }
 

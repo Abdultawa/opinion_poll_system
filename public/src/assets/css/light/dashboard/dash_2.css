@@ -647,7 +647,7 @@
   border-radius: 0;
 }
 .widget-activity-four .timeline-line .item-timeline.timeline-primary .t-dot:before {
-  background: #00ab55;
+  background: #4361ee;
 }
 .widget-activity-four .timeline-line .item-timeline.timeline-success .t-dot:before {
   background-color: #009688;
@@ -711,8 +711,8 @@
 }
 .widget-activity-four .timeline-line .item-timeline.timeline-primary .t-text span.badge {
   color: #fff;
-  border: 1px solid #00ab55;
-  background-color: #00ab55;
+  border: 1px solid #4361ee;
+  background-color: #4361ee;
 }
 .widget-activity-four .timeline-line .item-timeline.timeline-secondary .t-text span.badge {
   color: #fff;
@@ -829,7 +829,7 @@
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  color: #00ab55;
+  color: #4361ee;
 }
 .widget-account-invoice-one .invoice-box .acc-amount {
   text-align: center;
@@ -913,7 +913,7 @@
   font-weight: 700;
 }
 .widget.widget-wallet-one .wallet-text:hover {
-  color: #00ab55;
+  color: #4361ee;
 }
 .widget.widget-wallet-one .wallet-text svg {
   width: 16px;
@@ -1228,8 +1228,8 @@
   border-radius: 6px;
 }
 .widget-table-three .table .td-content .tag-primary {
-  color: #00ab55;
-  border: 1px dashed #00ab55;
+  color: #4361ee;
+  border: 1px dashed #4361ee;
   background: #eceffe;
 }
 .widget-table-three .table .td-content .tag-success {

@@ -59,15 +59,15 @@ body.dark .fc .fc-button {
   text-transform: capitalize;
 }
 body.dark .fc .fc-addEventButton-button {
-  background-color: #00ab55;
-  border-color: #00ab55;
+  background-color: #4361ee;
+  border-color: #4361ee;
   color: #fff;
   font-weight: 700;
   box-shadow: 0 10px 20px -10px rgba(27, 85, 226, 0.59);
 }
 body.dark .fc .fc-addEventButton-button:hover, body.dark .fc .fc-addEventButton-button:not(:disabled):active {
-  background-color: #00ab55;
-  border-color: #00ab55;
+  background-color: #4361ee;
+  border-color: #4361ee;
   box-shadow: none;
 }
 body.dark .fc-theme-standard .fc-scrollgrid, body.dark .fc-theme-standard td, body.dark .fc-theme-standard th {
@@ -119,11 +119,11 @@ body.dark .fc-daygrid-event-dot {
   margin: 0 6px 0 0;
 }
 body.dark .fc-bg-primary {
-  color: #00ab55;
+  color: #4361ee;
   background-color: rgba(67, 97, 238, 0.15);
 }
 body.dark .fc-bg-primary.fc-h-event .fc-event-main {
-  color: #00ab55;
+  color: #4361ee;
 }
 body.dark .fc-bg-success {
   color: #00ab55;
@@ -147,7 +147,7 @@ body.dark .fc-bg-danger.fc-h-event .fc-event-main {
   color: #e7515a;
 }
 body.dark .fc-bg-primary .fc-daygrid-event-dot {
-  border-color: #00ab55;
+  border-color: #4361ee;
 }
 body.dark .fc-bg-success .fc-daygrid-event-dot {
   border-color: #00ab55;

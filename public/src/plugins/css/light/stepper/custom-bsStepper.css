@@ -13,11 +13,11 @@
 }
 
 .bs-stepper .step.crossed + .line {
-  background-color: #00ab55;
+  background-color: #4361ee;
 }
 
 .step.crossed .step-trigger.disabled .bs-stepper-circle, .step.crossed .step-trigger:disabled .bs-stepper-circle {
-  background-color: #00ab55;
+  background-color: #4361ee;
   color: #fff;
 }
 
@@ -47,11 +47,11 @@
 }
 
 .active .bs-stepper-circle {
-  background-color: #00ab55;
+  background-color: #4361ee;
 }
 
 .bs-stepper-label:focus {
-  color: #00ab55;
+  color: #4361ee;
 }
 
 /* 

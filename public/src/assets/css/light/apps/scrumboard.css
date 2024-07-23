@@ -142,7 +142,7 @@
   cursor: pointer;
 }
 .connect-sorting .add-s-task .addTask:hover {
-  color: #00ab55;
+  color: #4361ee;
 }
 .connect-sorting .add-s-task .addTask svg {
   width: 16px;
@@ -173,7 +173,7 @@
   margin-right: 5px;
 }
 .scrumboard .task-header svg.feather-edit-2:hover {
-  color: #00ab55;
+  color: #4361ee;
   fill: none;
 }
 .scrumboard .task-header svg.feather-trash-2 {
@@ -210,11 +210,11 @@
   height: 17px;
 }
 .scrumboard .card .card-body .task-body .task-bottom div.tb-section-1 span:hover {
-  color: #00ab55;
+  color: #4361ee;
   cursor: pointer;
 }
 .scrumboard .card .card-body .task-body .task-bottom div.tb-section-1 span:hover svg {
-  color: #00ab55;
+  color: #4361ee;
 }
 .scrumboard .card .card-body .task-body .task-bottom div.tb-section-1 svg {
   width: 18px;
@@ -243,7 +243,7 @@
   padding: 0;
 }
 .scrumboard .card .card-body .task-body .task-bottom div.tb-section-2 svg.feather-edit-2:hover {
-  color: #00ab55;
+  color: #4361ee;
 }
 .scrumboard .card .card-body .task-body .task-bottom div.tb-section-2 svg.feather-trash-2 {
   color: #e7515a;
@@ -309,7 +309,7 @@
   margin-bottom: 0;
 }
 .scrumboard .card.ui-sortable-helper {
-  background-color: #00ab55;
+  background-color: #4361ee;
   background: rgba(67, 97, 238, 0.28);
   backdrop-filter: blur(5px);
 }

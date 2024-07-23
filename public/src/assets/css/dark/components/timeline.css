@@ -188,7 +188,7 @@ body.dark .timeline-line .item-timeline .t-dot:after {
   border-radius: 0;
 }
 body.dark .timeline-line .item-timeline .t-dot.t-dot-primary:before {
-  border-color: #00ab55;
+  border-color: #4361ee;
 }
 body.dark .timeline-line .item-timeline .t-dot.t-dot-success:before {
   border-color: #00ab55;
@@ -206,7 +206,7 @@ body.dark .timeline-line .item-timeline .t-dot.t-dot-dark:before {
   border-color: #3b3f5c;
 }
 body.dark .timeline-line .item-timeline .t-dot.t-dot-primary:after {
-  border-color: #00ab55;
+  border-color: #4361ee;
 }
 body.dark .timeline-line .item-timeline .t-dot.t-dot-success:after {
   border-color: #00ab55;
@@ -378,7 +378,7 @@ body.dark .timeline-alter .item-timeline .t-usr-txt:after {
 }
 body.dark .timeline-alter .item-timeline .t-usr-txt p {
   margin: 0;
-  background: #00ab55;
+  background: #4361ee;
   height: 45px;
   width: 45px;
   border-radius: 50%;
@@ -646,7 +646,7 @@ body.dark .timeline-item-icon.faded-icon {
   color: white;
 }
 body.dark .timeline-item-icon.filled-icon {
-  background-color: #00ab55;
+  background-color: #4361ee;
   color: #fff;
 }
 body.dark .timeline-item-description {

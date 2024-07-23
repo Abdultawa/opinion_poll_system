@@ -255,14 +255,14 @@
 .production-descriptions .pro-des-content .accordion .card .card-header section > div .accordion-icon svg {
   width: 26px;
   height: 26px;
-  color: #00ab55;
+  color: #4361ee;
   fill: none;
   stroke-width: 1.5;
   margin-right: 0;
 }
 .production-descriptions .pro-des-content .accordion .card .card-header section > div:not(.collapsed) {
   border-bottom: 1px solid #e0e6ed;
-  color: #00ab55;
+  color: #4361ee;
 }
 .production-descriptions .pro-des-content .accordion .card .card-header section > div.collapsed .accordion-icon svg {
   color: #3b3f5c;

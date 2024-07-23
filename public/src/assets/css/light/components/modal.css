@@ -55,7 +55,7 @@
   padding: 26px 26px;
 }
 .modal-content .modal-body a:not(.btn) {
-  color: #00ab55;
+  color: #4361ee;
   font-weight: 600;
 }
 .modal-content .modal-body p {
@@ -80,9 +80,9 @@
   letter-spacing: 1px;
 }
 .modal-content .modal-footer .btn.btn-primary {
-  background-color: #00ab55;
+  background-color: #4361ee;
   color: #fff;
-  border: 1px solid #00ab55;
+  border: 1px solid #4361ee;
 }
 
 /*

@@ -191,7 +191,7 @@
   border-radius: 0;
 }
 .timeline-line .item-timeline .t-dot.t-dot-primary:before {
-  border-color: #00ab55;
+  border-color: #4361ee;
 }
 .timeline-line .item-timeline .t-dot.t-dot-success:before {
   border-color: #00ab55;
@@ -209,7 +209,7 @@
   border-color: #3b3f5c;
 }
 .timeline-line .item-timeline .t-dot.t-dot-primary:after {
-  border-color: #00ab55;
+  border-color: #4361ee;
 }
 .timeline-line .item-timeline .t-dot.t-dot-success:after {
   border-color: #00ab55;
@@ -250,7 +250,7 @@
   font-weight: 600;
 }
 .timeline-line .item-timeline .t-text p a {
-  color: #00ab55;
+  color: #4361ee;
   font-weight: 600;
 }
 .timeline-line .item-timeline .t-time {
@@ -389,7 +389,7 @@
   align-self: center;
   justify-content: center;
   margin-bottom: 0;
-  color: #00ab55;
+  color: #4361ee;
   font-weight: 700;
   font-size: 18px;
   z-index: 7;
@@ -421,7 +421,7 @@
   font-weight: 600;
 }
 .timeline-alter .item-timeline .t-text p a {
-  color: #00ab55;
+  color: #4361ee;
   font-weight: 600;
 }
 
@@ -444,7 +444,7 @@
   position: relative;
   font-size: 19px;
   font-weight: 600;
-  color: #00ab55;
+  color: #4361ee;
   margin-bottom: 28px;
 }
 .timeline-simple .timeline-list p.meta-update-day {
@@ -498,7 +498,7 @@
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 0;
-  color: #00ab55;
+  color: #4361ee;
 }
 .timeline-simple .timeline-list .timeline-post-content svg {
   color: #888ea8;
@@ -507,7 +507,7 @@
   height: 21px;
 }
 .timeline-simple .timeline-list .timeline-post-content:hover svg {
-  color: #00ab55;
+  color: #4361ee;
   fill: rgba(27, 85, 226, 0.09);
 }
 .timeline-simple .timeline-list .timeline-post-content h6 {
@@ -651,7 +651,7 @@
   color: #0e1726;
 }
 .timeline-item-icon.filled-icon {
-  background-color: #00ab55;
+  background-color: #4361ee;
   color: #fff;
 }
 
@@ -673,7 +673,7 @@
   height: 40px;
 }
 .timeline-item-description a {
-  color: #00ab55;
+  color: #4361ee;
   font-weight: 600;
   text-decoration: none;
 }

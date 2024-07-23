@@ -143,8 +143,8 @@ body.dark .pricing--norbu .pricing__item:hover .pricing__action {
 }
 body.dark .pricing--norbu .pricing__action:hover, body.dark .pricing--norbu .pricing__action:focus {
   color: #152143;
-  background: #00ab55;
-  border-color: #00ab55;
+  background: #4361ee;
+  border-color: #4361ee;
   box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
   will-change: opacity, transform;
   transition: all 0.3s ease-out;

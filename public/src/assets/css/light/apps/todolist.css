@@ -45,7 +45,7 @@
   --bs-gutter-x:1.8rem;
 }
 .tab-title svg.feather-clipboard {
-  color: #00ab55;
+  color: #4361ee;
   fill: none;
   margin-bottom: 13px;
 }
@@ -91,7 +91,7 @@
   padding: 10px 12px 10px 14px;
 }
 .tab-title .nav-pills .nav-link.active svg {
-  color: #00ab55;
+  color: #4361ee;
   fill: #fff;
 }
 .tab-title .nav-pills a.nav-link {

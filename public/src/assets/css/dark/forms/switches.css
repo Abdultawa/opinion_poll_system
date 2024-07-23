@@ -117,8 +117,8 @@ body.dark .switch-inline label {
   cursor: pointer;
 }
 body.dark .form-switch-custom.form-switch-primary .switch-input:checked {
-  background-color: #00ab55;
-  border-color: #00ab55;
+  background-color: #4361ee;
+  border-color: #4361ee;
 }
 body.dark .form-switch-custom.form-switch-info .switch-input:checked {
   background-color: #2196f3;

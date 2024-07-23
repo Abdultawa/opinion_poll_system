@@ -359,7 +359,7 @@
 //     yaxis: {
 //       min: 0
 //     },
-//     colors: ['#00ab55'],
+//     colors: ['#4361ee'],
 //     tooltip: {
 //       x: {
 //         show: false,
@@ -851,7 +851,7 @@
 //     yaxis: {
 //       min: 0
 //     },
-//     colors: ['#00ab55'],
+//     colors: ['#4361ee'],
 //     tooltip: {
 //       x: {
 //         show: false,

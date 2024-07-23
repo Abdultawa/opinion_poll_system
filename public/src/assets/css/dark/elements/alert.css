@@ -44,8 +44,8 @@ body.dark .alert .btn-close svg {
 /*Default Alerts*/
 body.dark .alert-primary {
   color: #fff;
-  background-color: #00ab55;
-  border-color: #00ab55;
+  background-color: #4361ee;
+  border-color: #4361ee;
 }
 body.dark .alert-warning {
   color: #fff;
@@ -75,7 +75,7 @@ body.dark .alert-dark {
 
 /*Outline Alerts*/
 body.dark .alert-outline-primary {
-  border-color: #00ab55;
+  border-color: #4361ee;
   border-radius: 5px;
 }
 body.dark .alert-outline-warning {
@@ -113,12 +113,12 @@ body.dark .btn-light {
   border-color: transparent;
 }
 body.dark .alert-light-primary {
-  color: #00ab55;
+  color: #4361ee;
   background-color: #152143;
   border-color: rgba(67, 97, 238, 0.55);
 }
 body.dark .alert-light-primary svg.close {
-  color: #00ab55;
+  color: #4361ee;
 }
 body.dark .alert-light-warning {
   color: #e2a03f;
