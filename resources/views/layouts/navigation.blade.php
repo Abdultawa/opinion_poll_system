@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-green-700 border-b border-green-100">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -11,18 +11,18 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex no-underline">
+                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class=" no-underline">
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     @admin
-                    <x-nav-link :href="route('admin.create')" :active="request()->routeIs('admin.create')">
+                    <x-nav-link :href="route('admin.create')" :active="request()->routeIs('admin.create')" class=" no-underline">
                         {{ __('Add Question') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('admin.category')" :active="request()->routeIs('admin.category')">
+                    <x-nav-link :href="route('admin.category')" :active="request()->routeIs('admin.category')" class=" no-underline">
                         {{ __('Category') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('admin.manageUser')" :active="request()->routeIs('admin.manageUser')">
+                    <x-nav-link :href="route('admin.manageUser')" :active="request()->routeIs('admin.manageUser')" class=" no-underline">
                         {{ __('ManageUser') }}
                     </x-nav-link>
                     @endadmin
@@ -45,11 +45,11 @@
                     </x-slot>
 
                     <x-slot name="content">
-                        <x-dropdown-link :href="route('profile.edit')">
+                        <x-dropdown-link :href="route('profile.edit')" class=" no-underline">
                             {{ __('Profile') }}
                         </x-dropdown-link>
                         @admin
-                        <x-dropdown-link :href="route('admin.index')">
+                        <x-dropdown-link :href="route('admin.index')" class=" no-underline">
                             {{ __('AdminDashboard') }}
                         </x-dropdown-link>
                         @endadmin
@@ -59,7 +59,7 @@
 
                             <x-dropdown-link :href="route('logout')"
                                     onclick="event.preventDefault();
-                                                this.closest('form').submit();">
+                                                this.closest('form').submit();" class=" no-underline">
                                 {{ __('Log Out') }}
                             </x-dropdown-link>
                         </form>

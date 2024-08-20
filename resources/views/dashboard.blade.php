@@ -18,10 +18,10 @@
                                 </div>
                                 <div class="ml-4">
                                     <h6 class="font-semibold">{{ __('Jimmy Turner') }}</h6>
-                                    <p class="text-xs text-gray-600">{{ $question->created_at->diffForHumans() }}</p>
+                                    <p class="text-xs text-green-600">{{ $question->created_at->diffForHumans() }}</p>
                                 </div>
                                 <a href=""
-                                class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold ml-28"
+                                class="px-3 py-1 border border-green-300 rounded-full text-green-400 text-xs uppercase font-semibold ml-28"
                                 style="font-size: 10px"
                                 >{{$question->category->category}}</a>
                             </div>
@@ -29,7 +29,7 @@
                             <p class="text-sm">{{ $question->question }}</p>
                         </div>
                         <div class="px-6 py-4 bg-gray-100 flex justify-end">
-                            <a href="{{ route('question.show', ['question' => $question->id]) }}" class="text-blue-500 hover:text-blue-700">{{ __('View Question') }}</a>
+                            <a href="{{ route('question.show', ['question' => $question->id]) }}" class="text-green-500 hover:text-green-700 no-underline">{{ __('View Question') }}</a>
                         </div>
                     </div>
                 </div>

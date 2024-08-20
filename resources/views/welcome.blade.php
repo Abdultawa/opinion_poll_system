@@ -38,7 +38,7 @@
     </style>
 </head>
 <body class="layout-boxed">
-<nav class="bg-gray-800 p-3">
+<nav class="bg-green-800 p-3">
     <div class="container mx-auto flex justify-between items-center">
         <!-- <a class="text-white text-lg font-bold" href="#">Opinion</a> -->
          <img src="opinion.png" class="w-9 h-7">
@@ -80,7 +80,7 @@
                                         <div class="col-lg-5 mx-auto">
                                             <div class="autocomplete-btn">
                                                 <input id="example2" class="form-control">
-                                                <button class="btn btn-primary">Search</button>
+                                                <button class="btn btn-success">Search</button>
                                             </div>
                                         </div>
                                     </div>
@@ -103,15 +103,15 @@
                                             </div>
                                             <div class="ml-4">
                                                 <h6 class="font-semibold">{{ __('Promise') }}</h6>
-                                                <p class="text-xs text-gray-600">{{ $question->created_at->diffForHumans() }}</p>
+                                                <p class="text-xs text-green-600">{{ $question->created_at->diffForHumans() }}</p>
                                             </div>
-                                            <a href="" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold ml-28" style="font-size: 10px">{{ $question->category->category }}</a>
+                                            <a href="" class="px-3 py-1 border border-green-300 rounded-full text-green-400 text-xs uppercase font-semibold ml-28" style="font-size: 10px">{{ $question->category->category }}</a>
                                         </div>
                                         <h2 class="font-bold text-lg mb-3">{{ __('Question') }}</h2>
                                         <p class="text-sm">{{ $question->question }}</p>
                                     </div>
                                     <div class="px-6 py-4 bg-gray-100 flex justify-end">
-                                        <a href="{{ route('question.show', ['question' => $question->id]) }}" class="text-blue-500 hover:text-blue-700">{{ __('View Question') }}</a>
+                                        <a href="{{ route('question.show', ['question' => $question->id]) }}" class="text-green-500 hover:text-green-700 no-underline">{{ __('View Question') }}</a>
                                     </div>
                                 </div>
                             </div>

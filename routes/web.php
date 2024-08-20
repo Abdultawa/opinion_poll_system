@@ -45,6 +45,8 @@ Route::middleware('can:admin')->controller(QuestionController::class)->name('adm
     Route::patch('/admin/{question}/update', 'update')->name('update');
     Route::get('manageUser', 'manageUser')->name('manageUser');
     Route::delete('deleteUser/{user}', 'deleteUser')->name('deleteUser');
+    Route::get('/showResult/{question}', 'showResult')->name('showResult');
+
 });
 
 Route::get('category', [CategoryController::class, 'show'])->name('admin.category')->middleware('can:admin');

@@ -71,4 +71,29 @@ class QuestionController extends Controller
         $user->delete();
         return redirect()->back()->with('success', 'User deleted successfully!');
     }
+
+    public function showResult(Question $question)
+    {
+        // Decode the voted_users field, which contains user IDs mapped to their selected options
+        $votedUsers = json_decode($question->voted_users, true) ?? [];
+
+        $totalVotes = $question->option_A_votes + $question->option_B_votes +
+                      $question->option_C_votes + $question->option_D_votes;
+
+        // Avoid division by zero by setting totalVotes to 1 if no votes exist
+        $totalVotes = $totalVotes ?: 1;
+
+        // Calculate percentages for each option
+        $optionAPercentage = ($question->option_A_votes / $totalVotes) * 100;
+        $optionBPercentage = ($question->option_B_votes / $totalVotes) * 100;
+        $optionCPercentage = ($question->option_C_votes / $totalVotes) * 100;
+        $optionDPercentage = ($question->option_D_votes / $totalVotes) * 100;
+
+        return view('admin.showResult', compact(
+            'question', 'optionAPercentage', 'optionBPercentage', 
+            'optionCPercentage', 'optionDPercentage'
+        ));
+    }
+
+
 }
